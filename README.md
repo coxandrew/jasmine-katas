@@ -13,3 +13,4 @@ The project contains an example implementation that you can use to draw your Lif
 * [Jasmine](http://pivotal.github.com/jasmine/)
   * [Jasmine matchers](https://github.com/pivotal/jasmine/wiki/Matchers)
   * [Jasmine example PlayerSpec.js](https://github.com/pivotal/jasmine/blob/master/lib/jasmine-core/example/spec/PlayerSpec.js)
+* [List of refactoring techniques](http://refactoring.com/catalog)
