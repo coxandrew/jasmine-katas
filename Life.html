@@ -1,0 +1,84 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Conway's Game of Life</title>
+  <script src="src/jquery-1.6.2.min.js"></script>
+  <script src="src/Life.js"></script>
+  <style>
+  #universe {
+    background: #eee;
+    border: 1px solid #ccc;
+  }
+  #universe td {
+    background: #fff;
+    height: 10px;
+    width: 10px;
+  }
+  #universe td.live {
+    background: #000;
+  }
+  </style>
+
+  <script>
+  $(document).ready(function() {
+    $('#universe tr').each(function() {
+      var row = $(this);
+      row.find('td').each(function() {
+        var cell = $(this);
+        var is_alive = Math.ceil(Math.random() * 4) == 1;
+        if (is_alive) {
+          cell.attr('class', 'live');
+        }
+      });
+    });
+  });
+  </script>
+</head>
+<body>
+  <table id="universe">
+    <tr class="row_1">
+      <td>
+      </td>
+      <td>
+      </td>
+      <td>
+      </td>
+      <td>
+      </td>
+    </tr>
+
+    <tr class="row_2">
+      <td>
+      </td>
+      <td>
+      </td>
+      <td>
+      </td>
+      <td>
+      </td>
+    </tr>
+
+    <tr class="row_3">
+      <td>
+      </td>
+      <td>
+      </td>
+      <td>
+      </td>
+      <td>
+      </td>
+    </tr>
+
+    <tr class="row_4">
+      <td>
+      </td>
+      <td>
+      </td>
+      <td>
+      </td>
+      <td>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>
