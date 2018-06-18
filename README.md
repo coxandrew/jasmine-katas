@@ -26,7 +26,7 @@ The bowling game has progress from our Dojo, so you can try to finish it or star
 
 ## Resources
 
-* [Jasmine](http://pivotal.github.com/jasmine/)
+* [Jasmine](https://jasmine.github.io/)
   * [Jasmine matchers](https://github.com/pivotal/jasmine/wiki/Matchers)
   * [Jasmine example PlayerSpec.js](https://github.com/pivotal/jasmine/blob/master/lib/jasmine-core/example/spec/PlayerSpec.js)
 * [List of refactoring techniques](http://refactoring.com/catalog)
